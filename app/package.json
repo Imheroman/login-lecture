@@ -7,7 +7,7 @@
     "login-lecture": "./bin/www.js"
   },
   "dependencies": {
-
+    "body-parser": "^1.20.2"
   },
   "scripts": {
     "start": "nodemon ./bin/www.js",
@@ -17,4 +17,3 @@
   "author": "",
   "license": "MIT"
 }
- 
