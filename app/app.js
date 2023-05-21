@@ -12,6 +12,7 @@ const home = require("./src/routes/home");
 // 앱 세팅
 app.set("views", "./src/views"); // 파일명, 폴더명 
 app.set("view engine", "ejs"); // view engine을 ejs로 사용 -> html과 흡사
+app.use(express.static(`${__dirname}/src/public`));
 
 app.use("/", home); // use -> 미들 웨어를 등록해주는 메서드.
 
